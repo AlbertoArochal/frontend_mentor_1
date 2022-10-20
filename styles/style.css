@@ -17,11 +17,13 @@ main {
 
 .qr__container {
     width: min-content;
-    height: fit-content;
+    height: max-content;
     background-color: white;
-    border-radius: 7%;
+    border-radius: 5%;
     overflow: hidden;
     text-align: center;
+    padding-bottom: 1em;
+    box-shadow: 10px 10px 30px rgb(219, 203, 203);
 
 
 }
@@ -29,7 +31,7 @@ main {
 div h1 {
     color: rgba(31, 44, 67, 255);
     font-size: 1.1em;
-    margin: 0.5em 1em 1em 1em;
+    margin: 0.5em 1.5em 1em 1.5em;
     font-weight: 600;
 
 }
@@ -37,12 +39,22 @@ div h1 {
 div p {
     color: #9fa1aa;
     font-weight: 400;
-    margin: 0 1em 1em 1em;
+    margin: 0 1.5em 2em 1.5em;
+    font-size: 15px;
 }
 
 img {
-    border-radius: 7%;
+    border-radius: 4%;
     overflow: hidden;
-    width: 220px;
-    margin: 0.7em;
+    width: 250px;
+    margin: 0.9em;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
